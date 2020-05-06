@@ -1,4 +1,4 @@
-<img src="" width="300">
+<img src="https://github.com/CrugBarat/my_files/blob/master/block_game/block1.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/block_game/block2.png" width="300">
 
 
 # Block Game
@@ -11,11 +11,13 @@ A server based 2D block game built using:
 
 **Back-end Web Framework**: Express
 
-**JS libraries**: Socket.io
+**JS library**: Socket.io
 
 **Markup/Styling**: HTML5/CSS3
 
-A very VERY basic game grid that uses socket.io for bi-directional communication between server and client. Player position is stored server side. When the player moves the block, the client sends requests to the server, the server changes the position a before sending the data back to the client in real time via socket.io.
+A very VERY basic game grid that uses socket.io for bi-directional communication between server and client. Player position is stored server side. When the player moves the block, the client sends requests to the server, the server changes the position before sending the data back to the client in real time via socket.io. This allows the server to update multiple clients simultaneously.
+
+In the screenshot above, both clients are updated when one client moves the block.
 
 ---
 
